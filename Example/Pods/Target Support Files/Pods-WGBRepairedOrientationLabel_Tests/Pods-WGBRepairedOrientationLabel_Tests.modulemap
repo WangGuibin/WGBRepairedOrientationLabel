@@ -1,0 +1,6 @@
+framework module Pods_WGBRepairedOrientationLabel_Tests {
+  umbrella header "Pods-WGBRepairedOrientationLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

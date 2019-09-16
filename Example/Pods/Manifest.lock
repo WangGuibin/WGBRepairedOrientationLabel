@@ -1,0 +1,16 @@
+PODS:
+  - WGBRepairedOrientationLabel (0.1.0)
+
+DEPENDENCIES:
+  - WGBRepairedOrientationLabel (from `../`)
+
+EXTERNAL SOURCES:
+  WGBRepairedOrientationLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WGBRepairedOrientationLabel: c030ef3520ffd02f92db13f39c269d34d6199f52
+
+PODFILE CHECKSUM: d06b2971c3f06377cce9915adb525dbd5ed78bab
+
+COCOAPODS: 1.7.5
