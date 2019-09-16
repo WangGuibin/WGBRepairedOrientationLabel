@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WGBRepairedOrientationLabel.h"
 
 FOUNDATION_EXPORT double WGBRepairedOrientationLabelVersionNumber;
 FOUNDATION_EXPORT const unsigned char WGBRepairedOrientationLabelVersionString[];

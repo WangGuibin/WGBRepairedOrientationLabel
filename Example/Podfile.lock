@@ -1,5 +1,5 @@
 PODS:
-  - WGBRepairedOrientationLabel (0.1.0)
+  - WGBRepairedOrientationLabel (1.0.0)
 
 DEPENDENCIES:
   - WGBRepairedOrientationLabel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WGBRepairedOrientationLabel: c030ef3520ffd02f92db13f39c269d34d6199f52
+  WGBRepairedOrientationLabel: 236b72d5b8ff84c4feba50bda0a109de143c6064
 
 PODFILE CHECKSUM: d06b2971c3f06377cce9915adb525dbd5ed78bab
 

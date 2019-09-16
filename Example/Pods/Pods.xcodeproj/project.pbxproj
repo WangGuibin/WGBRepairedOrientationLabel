@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20B242B764A484C76BCC550CF7477D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		00EDCE805AEA49FBA9CF18F5B04E7D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3511F9E5A3A906DF7E97291108631E3F /* Pods-WGBRepairedOrientationLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 512834F5905E49E3014446999A88341D /* Pods-WGBRepairedOrientationLabel_Tests-dummy.m */; };
+		3C2319BCE59ED8877AB27BC1D6E38D18 /* WGBRepairedOrientationLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CFF31A778775460AC7AAABA27CF041 /* WGBRepairedOrientationLabel-dummy.m */; };
 		5403153A9BF0A310BA128DF4D5E60F1C /* Pods-WGBRepairedOrientationLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A107FAB1EDD2CC3F18D93950C3DC8C0E /* Pods-WGBRepairedOrientationLabel_Example-dummy.m */; };
-		5FBC54E079960C527B79C0B62EC3B5AD /* WGBRepairedOrientationLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0EDD1EDCF7D19D43E88491656819BA /* WGBRepairedOrientationLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FE12B790B2482CE0475C808F6CAD45C /* WGBRepairedOrientationLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFBF169A9B93A565501C2F347F2CD3 /* WGBRepairedOrientationLabel-dummy.m */; };
 		82F88BE35913D208C3A3CE1624254D6D /* Pods-WGBRepairedOrientationLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CE3E1A5B60C645F2FEEE8490E00FE8 /* Pods-WGBRepairedOrientationLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		920AFEE48EB2EBB01DAF5700A6134B76 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C3F70EEC3F312C59B90D9DBBF8E220 /* ReplaceMe.m */; };
+		9B9D650BEB02BFDBDD6A2B8247E82EE5 /* WGBRepairedOrientationLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F3858269DF4A406291AAB5318126F7E3 /* WGBRepairedOrientationLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A82852D1315892359E808084BA4E70A8 /* Pods-WGBRepairedOrientationLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7A8B1F7E3D9F0CC2F32A9F4B6598A4 /* Pods-WGBRepairedOrientationLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEB21FE7BE762AF29775256CE7AEEDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F43C8A369972EE12A1421F1FA092D041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F50463C64B7EE100E48BFF497513C825 /* WGBRepairedOrientationLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBBD82B8543174FBC2C40ACDFFDD435 /* WGBRepairedOrientationLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA69BA605B0EA2813968C5F2C623FB91 /* WGBRepairedOrientationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 054027B49F1AA1753C7D944C4E90D549 /* WGBRepairedOrientationLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,46 +38,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054027B49F1AA1753C7D944C4E90D549 /* WGBRepairedOrientationLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WGBRepairedOrientationLabel.m; path = WGBRepairedOrientationLabel/Classes/WGBRepairedOrientationLabel.m; sourceTree = "<group>"; };
 		1085BBAF62CC6F0C08CCEA4EE63A58E8 /* Pods-WGBRepairedOrientationLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBRepairedOrientationLabel_Example.modulemap"; sourceTree = "<group>"; };
 		1AB13232BDCA9B6D1E8DC8C9BE0A9A70 /* Pods-WGBRepairedOrientationLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRepairedOrientationLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1CDFBF169A9B93A565501C2F347F2CD3 /* WGBRepairedOrientationLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WGBRepairedOrientationLabel-dummy.m"; sourceTree = "<group>"; };
+		1FBBD82B8543174FBC2C40ACDFFDD435 /* WGBRepairedOrientationLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBRepairedOrientationLabel-umbrella.h"; sourceTree = "<group>"; };
 		20BA26524C8286969CE860A5E3C94BB7 /* Pods_WGBRepairedOrientationLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WGBRepairedOrientationLabel_Example.framework; path = "Pods-WGBRepairedOrientationLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2971CDCEF84D11FD992800356D63A161 /* Pods-WGBRepairedOrientationLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBRepairedOrientationLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D3B809BCC120EC9B19CD934F49B65AE /* WGBRepairedOrientationLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WGBRepairedOrientationLabel.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32C3F70EEC3F312C59B90D9DBBF8E220 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WGBRepairedOrientationLabel/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4968511A007FBDE0D3703FFD68D264F1 /* Pods-WGBRepairedOrientationLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRepairedOrientationLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4998B92B8F7EA357088BEB2CE34137B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		504C9582EB6C0489DED33D4EF5C00A62 /* Pods-WGBRepairedOrientationLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRepairedOrientationLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		512834F5905E49E3014446999A88341D /* Pods-WGBRepairedOrientationLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBRepairedOrientationLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		53E6FB3A51D5AABA325E26413FB05409 /* Pods-WGBRepairedOrientationLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRepairedOrientationLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		68C0770BE5EF0AC9CCF9ED5B988E7342 /* WGBRepairedOrientationLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBRepairedOrientationLabel-prefix.pch"; sourceTree = "<group>"; };
-		6EA00DDAFC73660789A629874A03A6C9 /* WGBRepairedOrientationLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WGBRepairedOrientationLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5ADA0D73AC3BA807DF6450EC3BC04217 /* WGBRepairedOrientationLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WGBRepairedOrientationLabel-Info.plist"; sourceTree = "<group>"; };
+		6A40D0B4547478B223AB240B9574C81E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		72CE3E1A5B60C645F2FEEE8490E00FE8 /* Pods-WGBRepairedOrientationLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBRepairedOrientationLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		838E37A09464C8DF3A86F2436E25E676 /* Pods-WGBRepairedOrientationLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBRepairedOrientationLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		90CFF31A778775460AC7AAABA27CF041 /* WGBRepairedOrientationLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WGBRepairedOrientationLabel-dummy.m"; sourceTree = "<group>"; };
 		9513A1C1E5974F004143FDA7DA750C60 /* WGBRepairedOrientationLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGBRepairedOrientationLabel.framework; path = WGBRepairedOrientationLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C107C3E477F71D54BDF94E05F15432 /* Pods-WGBRepairedOrientationLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRepairedOrientationLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9A0EDD1EDCF7D19D43E88491656819BA /* WGBRepairedOrientationLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBRepairedOrientationLabel-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A107FAB1EDD2CC3F18D93950C3DC8C0E /* Pods-WGBRepairedOrientationLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBRepairedOrientationLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		A2067C529B7747CC708B60D0C22264E3 /* Pods-WGBRepairedOrientationLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGBRepairedOrientationLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC2513952BBC5E42E6E57C230757E7C5 /* Pods-WGBRepairedOrientationLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRepairedOrientationLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AFF1AF158CC22432A35C8CE890DBB362 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B0B456DE3F40EE3F9A44E1C5FB89C87D /* Pods_WGBRepairedOrientationLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WGBRepairedOrientationLabel_Tests.framework; path = "Pods-WGBRepairedOrientationLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B587ACCF36BC17769B834DF18F5563C9 /* Pods-WGBRepairedOrientationLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRepairedOrientationLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C095C4000B30E1AF55CA0517CFB2631E /* WGBRepairedOrientationLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WGBRepairedOrientationLabel.xcconfig; sourceTree = "<group>"; };
+		BE5C854730F91560F2D90A0DCC478791 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C2ECFFB677C2D80480859FE4F4E176DA /* Pods-WGBRepairedOrientationLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRepairedOrientationLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CDE1F5A22B27E385FA379ADEDD33855D /* WGBRepairedOrientationLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WGBRepairedOrientationLabel-Info.plist"; sourceTree = "<group>"; };
-		FC3412CE82AC9D59888D3625C72EEB14 /* WGBRepairedOrientationLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WGBRepairedOrientationLabel.modulemap; sourceTree = "<group>"; };
+		C70EC1C99FC20E0114C756F1854165D0 /* WGBRepairedOrientationLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBRepairedOrientationLabel-prefix.pch"; sourceTree = "<group>"; };
+		DBDE979ED54357F7E732F4CE612A301B /* WGBRepairedOrientationLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WGBRepairedOrientationLabel.xcconfig; sourceTree = "<group>"; };
+		F3858269DF4A406291AAB5318126F7E3 /* WGBRepairedOrientationLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WGBRepairedOrientationLabel.h; path = WGBRepairedOrientationLabel/Classes/WGBRepairedOrientationLabel.h; sourceTree = "<group>"; };
+		FD47226D496CA0FD4F134E4C7882996F /* WGBRepairedOrientationLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WGBRepairedOrientationLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FD5AFB6C0E8AA1BCD4D5CB90F5CA3288 /* Pods-WGBRepairedOrientationLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBRepairedOrientationLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF7A8B1F7E3D9F0CC2F32A9F4B6598A4 /* Pods-WGBRepairedOrientationLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBRepairedOrientationLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C55A54DF887F91837B068FCC0A07105 /* Frameworks */ = {
+		8BFA016FE7A97A888C97D425A6EF6079 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B242B764A484C76BCC550CF7477D88 /* Foundation.framework in Frameworks */,
+				00EDCE805AEA49FBA9CF18F5B04E7D68 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,15 +127,18 @@
 			path = "Target Support Files/Pods-WGBRepairedOrientationLabel_Tests";
 			sourceTree = "<group>";
 		};
-		22159FE4225641AE4B11F95F58E495D9 /* WGBRepairedOrientationLabel */ = {
+		19965C5C598A4D9DB08E3D90009BF523 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				32C3F70EEC3F312C59B90D9DBBF8E220 /* ReplaceMe.m */,
-				5510A285AE9F4FE25B753F6976BAD17E /* Pod */,
-				F47079016D6E3158FE65B506F270F999 /* Support Files */,
+				2D3B809BCC120EC9B19CD934F49B65AE /* WGBRepairedOrientationLabel.modulemap */,
+				DBDE979ED54357F7E732F4CE612A301B /* WGBRepairedOrientationLabel.xcconfig */,
+				90CFF31A778775460AC7AAABA27CF041 /* WGBRepairedOrientationLabel-dummy.m */,
+				5ADA0D73AC3BA807DF6450EC3BC04217 /* WGBRepairedOrientationLabel-Info.plist */,
+				C70EC1C99FC20E0114C756F1854165D0 /* WGBRepairedOrientationLabel-prefix.pch */,
+				1FBBD82B8543174FBC2C40ACDFFDD435 /* WGBRepairedOrientationLabel-umbrella.h */,
 			);
-			name = WGBRepairedOrientationLabel;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WGBRepairedOrientationLabel";
 			sourceTree = "<group>";
 		};
 		29C72195C8C3F414AFB57137DF6EFA37 /* Pods-WGBRepairedOrientationLabel_Example */ = {
@@ -153,24 +158,6 @@
 			path = "Target Support Files/Pods-WGBRepairedOrientationLabel_Example";
 			sourceTree = "<group>";
 		};
-		3EF0CC4F905CFEB6FBAA17DFCD7C299E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				22159FE4225641AE4B11F95F58E495D9 /* WGBRepairedOrientationLabel */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5510A285AE9F4FE25B753F6976BAD17E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AFF1AF158CC22432A35C8CE890DBB362 /* LICENSE */,
-				4998B92B8F7EA357088BEB2CE34137B4 /* README.md */,
-				6EA00DDAFC73660789A629874A03A6C9 /* WGBRepairedOrientationLabel.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,11 +175,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		C739E2416C6AE10D81CE64ADD6D6CAFB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86E0D525F62F0FEC7D42905A37C27D7 /* WGBRepairedOrientationLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3EF0CC4F905CFEB6FBAA17DFCD7C299E /* Development Pods */,
+				C739E2416C6AE10D81CE64ADD6D6CAFB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				010A0DA19DEC9382DCD612E7E212DD99 /* Products */,
 				C73141768A8A1E0C3227733752684CCC /* Targets Support Files */,
@@ -207,18 +202,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F47079016D6E3158FE65B506F270F999 /* Support Files */ = {
+		E86E0D525F62F0FEC7D42905A37C27D7 /* WGBRepairedOrientationLabel */ = {
 			isa = PBXGroup;
 			children = (
-				FC3412CE82AC9D59888D3625C72EEB14 /* WGBRepairedOrientationLabel.modulemap */,
-				C095C4000B30E1AF55CA0517CFB2631E /* WGBRepairedOrientationLabel.xcconfig */,
-				1CDFBF169A9B93A565501C2F347F2CD3 /* WGBRepairedOrientationLabel-dummy.m */,
-				CDE1F5A22B27E385FA379ADEDD33855D /* WGBRepairedOrientationLabel-Info.plist */,
-				68C0770BE5EF0AC9CCF9ED5B988E7342 /* WGBRepairedOrientationLabel-prefix.pch */,
-				9A0EDD1EDCF7D19D43E88491656819BA /* WGBRepairedOrientationLabel-umbrella.h */,
+				F3858269DF4A406291AAB5318126F7E3 /* WGBRepairedOrientationLabel.h */,
+				054027B49F1AA1753C7D944C4E90D549 /* WGBRepairedOrientationLabel.m */,
+				EDC63B3DB72E19E5E1AFE954725C1766 /* Pod */,
+				19965C5C598A4D9DB08E3D90009BF523 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WGBRepairedOrientationLabel";
+			name = WGBRepairedOrientationLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EDC63B3DB72E19E5E1AFE954725C1766 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A40D0B4547478B223AB240B9574C81E /* LICENSE */,
+				BE5C854730F91560F2D90A0DCC478791 /* README.md */,
+				FD47226D496CA0FD4F134E4C7882996F /* WGBRepairedOrientationLabel.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +235,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3B208A5B4ACD6E1982C37EE7ACFC22B /* Headers */ = {
+		959E1DFB47C69C2B2901A77F0662CC67 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FBC54E079960C527B79C0B62EC3B5AD /* WGBRepairedOrientationLabel-umbrella.h in Headers */,
+				F50463C64B7EE100E48BFF497513C825 /* WGBRepairedOrientationLabel-umbrella.h in Headers */,
+				9B9D650BEB02BFDBDD6A2B8247E82EE5 /* WGBRepairedOrientationLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +295,12 @@
 		};
 		55A3C9ED64144E1DC79C8ACCF48AD952 /* WGBRepairedOrientationLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 576B6F6BA3435DE6F548DC8C18564E98 /* Build configuration list for PBXNativeTarget "WGBRepairedOrientationLabel" */;
+			buildConfigurationList = 2772B0C91DB88DF456845A2284B82F00 /* Build configuration list for PBXNativeTarget "WGBRepairedOrientationLabel" */;
 			buildPhases = (
-				F3B208A5B4ACD6E1982C37EE7ACFC22B /* Headers */,
-				67CC300BA89D24E825BE1A1767270D08 /* Sources */,
-				4C55A54DF887F91837B068FCC0A07105 /* Frameworks */,
-				66398E0202C15028948A50BFF55617E5 /* Resources */,
+				959E1DFB47C69C2B2901A77F0662CC67 /* Headers */,
+				D59610BEE5FF9CB5F8655982B2559474 /* Sources */,
+				8BFA016FE7A97A888C97D425A6EF6079 /* Frameworks */,
+				610FD83BE7D02DA9ABF6F4668B5AFBD8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +340,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		66398E0202C15028948A50BFF55617E5 /* Resources */ = {
+		610FD83BE7D02DA9ABF6F4668B5AFBD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,15 +364,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67CC300BA89D24E825BE1A1767270D08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				920AFEE48EB2EBB01DAF5700A6134B76 /* ReplaceMe.m in Sources */,
-				7FE12B790B2482CE0475C808F6CAD45C /* WGBRepairedOrientationLabel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A4B72918E0E1A9E8E532E89D02B3168 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +377,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5403153A9BF0A310BA128DF4D5E60F1C /* Pods-WGBRepairedOrientationLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59610BEE5FF9CB5F8655982B2559474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2319BCE59ED8877AB27BC1D6E38D18 /* WGBRepairedOrientationLabel-dummy.m in Sources */,
+				FA69BA605B0EA2813968C5F2C623FB91 /* WGBRepairedOrientationLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,38 +631,6 @@
 			};
 			name = Debug;
 		};
-		B3B947AA74364580F5067B85BCE5A0EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C095C4000B30E1AF55CA0517CFB2631E /* WGBRepairedOrientationLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WGBRepairedOrientationLabel/WGBRepairedOrientationLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WGBRepairedOrientationLabel/WGBRepairedOrientationLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WGBRepairedOrientationLabel/WGBRepairedOrientationLabel.modulemap";
-				PRODUCT_MODULE_NAME = WGBRepairedOrientationLabel;
-				PRODUCT_NAME = WGBRepairedOrientationLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BA45E81B1F9246E0891FF311F0CF7C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC2513952BBC5E42E6E57C230757E7C5 /* Pods-WGBRepairedOrientationLabel_Example.release.xcconfig */;
@@ -693,9 +665,9 @@
 			};
 			name = Release;
 		};
-		DE7A13AFEEEC035F93590F5DDAAB2438 /* Debug */ = {
+		C682A1DA381516CCF010213BC0E18C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C095C4000B30E1AF55CA0517CFB2631E /* WGBRepairedOrientationLabel.xcconfig */;
+			baseConfigurationReference = DBDE979ED54357F7E732F4CE612A301B /* WGBRepairedOrientationLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -724,6 +696,38 @@
 			};
 			name = Debug;
 		};
+		EB6EE9CE94C4FEB0A5894CC7173CB5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDE979ED54357F7E732F4CE612A301B /* WGBRepairedOrientationLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WGBRepairedOrientationLabel/WGBRepairedOrientationLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WGBRepairedOrientationLabel/WGBRepairedOrientationLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WGBRepairedOrientationLabel/WGBRepairedOrientationLabel.modulemap";
+				PRODUCT_MODULE_NAME = WGBRepairedOrientationLabel;
+				PRODUCT_NAME = WGBRepairedOrientationLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -736,20 +740,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2772B0C91DB88DF456845A2284B82F00 /* Build configuration list for PBXNativeTarget "WGBRepairedOrientationLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C682A1DA381516CCF010213BC0E18C79 /* Debug */,
+				EB6EE9CE94C4FEB0A5894CC7173CB5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		576B6F6BA3435DE6F548DC8C18564E98 /* Build configuration list for PBXNativeTarget "WGBRepairedOrientationLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE7A13AFEEEC035F93590F5DDAAB2438 /* Debug */,
-				B3B947AA74364580F5067B85BCE5A0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

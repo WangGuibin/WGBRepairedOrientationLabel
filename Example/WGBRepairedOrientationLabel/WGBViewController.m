@@ -7,8 +7,10 @@
 //
 
 #import "WGBViewController.h"
+#import <WGBRepairedOrientationLabel.h>
 
 @interface WGBViewController ()
+@property (weak, nonatomic) IBOutlet WGBRepairedOrientationLabel *label;
 
 @end
 
@@ -19,6 +21,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
+    self.label.alignType = arc4random() % 13;
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {

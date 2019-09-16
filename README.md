@@ -1,9 +1,15 @@
 # WGBRepairedOrientationLabel
 
-[![CI Status](https://img.shields.io/travis/Wangguibin/WGBRepairedOrientationLabel.svg?style=flat)](https://travis-ci.org/Wangguibin/WGBRepairedOrientationLabel)
-[![Version](https://img.shields.io/cocoapods/v/WGBRepairedOrientationLabel.svg?style=flat)](https://cocoapods.org/pods/WGBRepairedOrientationLabel)
-[![License](https://img.shields.io/cocoapods/l/WGBRepairedOrientationLabel.svg?style=flat)](https://cocoapods.org/pods/WGBRepairedOrientationLabel)
-[![Platform](https://img.shields.io/cocoapods/p/WGBRepairedOrientationLabel.svg?style=flat)](https://cocoapods.org/pods/WGBRepairedOrientationLabel)
+<p align='center'>
+<img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+<a href="https://cocoapods.org/pods/WGBRepairedOrientationLabel"> <img src="https://img.shields.io/cocoapods/v/WGBRepairedOrientationLabel.svg?style=flat"> </a>
+<img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
+<img src="https://img.shields.io/badge/language-Objective--C-orange.svg">
+<a href=""><img src="https://img.shields.io/badge/license-MIT-000000.svg"></a>
+<a href="http://wangguibin.github.io"><img src="https://img.shields.io/badge/Blog-CoderWGB-80d4f9.svg?style=flat"></a>
+<img src="https://img.shields.io/badge/Used-welcome%20!-brightgreen.svg?colorA=a0cd34">
+</p>
+
 
 ## Example
 
@@ -22,7 +28,7 @@ pod 'WGBRepairedOrientationLabel'
 
 ## Author
 
-Wangguibin, guchengye153@gmail.com
+Wangguibin, 864562082@qq.com
 
 ## License
 
